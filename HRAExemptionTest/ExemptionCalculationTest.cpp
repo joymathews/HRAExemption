@@ -35,7 +35,7 @@ namespace HRAExemptionTests {
 	//
 	// Given basic salary is One lakh per month, HRA is Fifty Thousand per month
 	// When rent paid monthly is Fifty One Thousand and not living in metro city
-	// Then the HRA tax exemption per year would be Four lakh Eight Thousand, since forty percent of basic salary is the least amount.
+	// Then the HRA tax exemption per year would be Four lakh Eighty Thousand, since forty percent of basic salary is the least amount.
 	TEST(ExemptionCalculation, FourtyPercentOfBasicSalaryIsLeast) {
 		Salary salary(100000, 50000);
 		Rent rent(51000);
